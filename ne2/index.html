@@ -1,16 +1,22 @@
 ---
-layout: default
+layout: ne2
 title: ACBC NE2 小組
 category: ne2
 ---
 {% for post in site.posts %}      
   {% if post.categories contains 'ne2' %}
-	<div class="post">
-		<h3 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-		<p class="meta">Date: {{ post.date }}</p>
-		<div class="entry">
-			{{ post.content | strip_html | truncatewords: 100 }}
-		</div>
-	</div>
+	  <div class="mdl-card archive mdl-cell mdl-cell--8-col mdl-cell--6-col-desktop">
+            <div class="mdl-card__title mdl-color-text--grey-50">
+              <h4>{{ post.title }}</h4>
+            </div>
+            <div class="mdl-card__supporting-text mdl-color-text--grey-600">
+		{{ post.content | strip_html | truncatewords: 100 }}
+	    </div>
+	    <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+              <div>
+                <span>{{ post.date }}</span>
+              </div>
+            </div>
+          </div>
   {% endif %}
 {% endfor %}
