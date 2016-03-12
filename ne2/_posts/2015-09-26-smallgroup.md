@@ -5,7 +5,7 @@ category: ne2
 date: 2015-09-26
 time: 7:00-8:45p
 ---
-<code>&lt;span&gt;</code>[這一生最美的祝福](http://www.youtube.com/watch?v=neW0xVroNNs)<code>&lt;/span&gt;</code>
-<code>&lt;span&gt;</code>[你坐著為王](http://www.youtube.com/watch?v=nuK3oi7-YoM)<code>&lt;/span&gt;</code>
-<code>&lt;span&gt;</code>[最知心的朋友](http://www.youtube.com/watch?v=fvUsgi3gxJU)<code>&lt;/span&gt;</code>
-<code>&lt;span&gt;</code>[活出愛](http://www.youtube.com/watch?v=O4fpjeHPc68)<code>&lt;/span&gt;</code>
+<span>[這一生最美的祝福](http://www.youtube.com/watch?v=neW0xVroNNs)</span>
+<span>[你坐著為王](http://www.youtube.com/watch?v=nuK3oi7-YoM)</span>
+<span>[最知心的朋友](http://www.youtube.com/watch?v=fvUsgi3gxJU)</span>
+<span>[活出愛](http://www.youtube.com/watch?v=O4fpjeHPc68)</span>
