@@ -3,8 +3,7 @@ layout: feed
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-
-	<title>ACBC NE2</title>
+	<title>ACBC NE2 Feed</title>
 	<link href="http://wzhouus.github.io/ne2/atom.xml" rel="self"/>
 	<link href="http://wzhouus.github.io/ne2"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
@@ -18,7 +17,6 @@ layout: feed
 	    {% if post.categories contains 'ne2' %}
 		<entry>
 			<title>{{ post.title }}</title>
-			<link href="http://wzhouus.github.io{{ post.url }}"/>
 			<updated>{{ post.date | date_to_xmlschema }}</updated>
 			<id>http://wzhouus.github.io/{{ post.id }}</id>
 			<content type="html">{{ post.content | xml_escape }}</content>
