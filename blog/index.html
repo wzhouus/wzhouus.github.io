@@ -8,7 +8,7 @@ category: blog
   {% for post in site.posts %}
     {% if post.categories contains 'blog' %}
 	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-	    <div class="post"> {{ post.content }}</div></li>
+	    <!--<div class="post"> {{ post.content }}</div>--></li>
     {% endfor %}
   {% endfor %}
 </ul>
