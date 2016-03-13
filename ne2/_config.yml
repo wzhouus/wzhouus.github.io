@@ -1,4 +1,4 @@
 name: Wei
 markdown: kramdown
 paginate: 5
-permalink: /ne2/:year/:month/:day/:title.html
+permalink: /ne2/:year-:month-:day.html
