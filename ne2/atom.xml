@@ -4,11 +4,11 @@ layout: feed
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-	<title>Wei's Blog</title>
-	<link href="http://wzhouus.github.io/blog/atom.xml" rel="self"/>
-	<link href="http://wzhouus.github.io/blog"/>
+	<title>ACBC NE2</title>
+	<link href="http://wzhouus.github.io/ne2/atom.xml" rel="self"/>
+	<link href="http://wzhouus.github.io/ne2"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://wzhouus.github.io/blog</id>
+	<id>http://wzhouus.github.io/ne2</id>
 	<author>
 		<name>Wei</name>
 		<email>wzhouus@gmail.com</email>
