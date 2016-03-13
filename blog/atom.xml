@@ -15,6 +15,7 @@ layout: feed
 	</author>
 
 	{% for post in site.posts %}
+	    {% if post.categories contains 'blog' %}
 		<entry>
 			<title>{{ post.title }}</title>
 			<link href="http://wzhouus.github.io{{ post.url }}"/>
@@ -22,6 +23,6 @@ layout: feed
 			<id>http://wzhouus.github.io/{{ post.id }}</id>
 			<content type="html">{{ post.content | xml_escape }}</content>
 		</entry>
+	    {% endfor %}
 	{% endfor %}
-
 </feed>
