@@ -1,5 +1,5 @@
 ---
-layout: ne2
+layout: ne2sg
 title: "二零一六年一月小組聚會"
 category: ne2
 date: 2016-01-23
