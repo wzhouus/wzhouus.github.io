@@ -3,20 +3,22 @@ layout: ne2
 title: ACBC NE2 小組
 category: ne2
 ---
+{% include ne2header.html %}
+
 {% for post in site.posts %}      
-  {% if post.categories contains 'ne2' %}
-	  <div class="mdl-card archive mdl-cell mdl-cell--8-col mdl-cell--6-col-desktop">
-            <div class="mdl-card__title mdl-color-text--grey-50">
-              <h4>{{ post.title }}</h4>
+	{% if post.categories contains 'ne2' %}
+		<div class="mdl-card archive mdl-cell mdl-cell--8-col mdl-cell--6-col-desktop">
+        	<div class="mdl-card__title mdl-color-text--grey-50">
+            	<h4>{{ post.title }}</h4>
             </div>
-            <div class="mdl-card__supporting-text mdl-color-text--grey-600">
-		{{ post.content | remove: '<p>' | remove: '</p>' }}
-	    </div>
-	    <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
-              <div>
-                <span>{{ post.date | date: '%Y-%m-%d' }} {{ post.time }}</span>
-              </div>
-            </div>
-          </div>
-  {% endif %}
+			<div class="mdl-card__supporting-text mdl-color-text--grey-600">
+				{{ post.content | remove: '<p>' | remove: '</p>' }}
+	    	</div>
+	    	<div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+            	<div>
+                	<span>{{ post.date | date: '%Y-%m-%d' }} {{ post.time }}</span>
+            	</div>
+			</div>
+		</div>
+	{% endif %}
 {% endfor %}
