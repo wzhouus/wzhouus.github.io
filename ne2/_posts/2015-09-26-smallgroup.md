@@ -1,7 +1,7 @@
 ---
-layout: ne2
+layout: ne2sg
 title: "二零一五年九月小組聚會"
-category: ne2sg
+category: ne2
 date: 2015-09-26
 time: 7:00-8:45p
 ---
