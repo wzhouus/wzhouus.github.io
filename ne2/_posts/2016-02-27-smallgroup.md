@@ -8,3 +8,4 @@ time: 2:00-4:00p
 <span>[更新我心意](http://www.youtube.com/watch?v=L1ksbEYYgX4)</span>
 <span>[你是我的一切](http://www.youtube.com/watch?v=Qc6vnPPM-JE)</span>
 <span>[主赐福如春雨](http://www.youtube.com/watch?v=a-ZdJYewil4)</span>
+<span>學完： [108: 與世界分別; 201: 認識罪](/ne2/newman.html)</span>
