@@ -10,3 +10,4 @@ time: 6:30-8:30p
 <span>[如鷹展翅上騰](http://www.youtube.com/watch?v=uLRC3OHhIfU)</span>
 <span>[全新的你](http://www.youtube.com/watch?v=n8h8vtFsoWg)</span>
 <span>[耶穌掌權](http://www.youtube.com/watch?v=x_YFittAE-c)</span>
+<span>學完： [102: 在基督的學校作門徒; 103: 建立穩定的靈修生活](/ne2/newman.html)</span>
