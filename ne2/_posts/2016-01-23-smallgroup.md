@@ -8,3 +8,4 @@ time: 6:00-8:00p
 <span>[我的神我敬拜祢](http://www.youtube.com/watch?v=kdPRftyhEVc)</span>
 <span>[因著信](http://www.youtube.com/watch?v=oassA_g8Q1g)</span>
 <span>[寶貴十架](http://www.youtube.com/watch?v=4d1y6iQLdLE)</span>
+<span>學完： [106: 敬拜的生活; 107: 信心的生活](/ne2/newman.html)</span>
