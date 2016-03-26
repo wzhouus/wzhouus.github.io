@@ -8,3 +8,4 @@ time: 6:00-8:30p
 <span>[獻上感恩的心](http://www.youtube.com/watch?v=hrRKEk2FEDc)</span>
 <span>[感謝神](http://www.youtube.com/watch?v=YpfwJAiFdJ4)</span>
 <span>[恩典之路](http://www.youtube.com/watch?v=GN_9gOL6_hc)</span>
+<span>學完： [104: 讀經的生活; 105: 禱告的生活](/ne2/newman.html)</span>
