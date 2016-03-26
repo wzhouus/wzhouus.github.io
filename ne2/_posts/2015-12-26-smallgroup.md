@@ -8,4 +8,4 @@ time: 10:00-11:30a
 <span>[我以禱告來到祢跟前](http://www.youtube.com/watch?v=jp8P5exXu5w)</span>
 <span>[帶我進入幔内](http://www.youtube.com/watch?v=cw20DtPhJpw)</span>
 <span>[主禱文](http://www.youtube.com/watch?v=p1baNBCny_c)</span>
-<span>學完： [106: 敬拜的生活; 107: 信心的生活](/ne2/newman.html)</span>
+<span>學完： [104: 讀經的生活; 105: 禱告的生活](/ne2/newman.html)</span>
