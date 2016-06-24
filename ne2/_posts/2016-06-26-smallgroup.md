@@ -2,7 +2,7 @@
 layout: ne2sg
 title: "二零一六年六月小組聚會"
 category: ne2
-date: 2016-06-26
+date: 2016-06-23
 time: 1:30-3:30p
 ---
 <span>[這一生最美的祝福](http://www.youtube.com/watch?v=neW0xVroNNs)</span>
