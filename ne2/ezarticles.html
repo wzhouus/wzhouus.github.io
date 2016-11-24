@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body ng-app="myApp"  ng-cloak>
+<div ng-controller="AppCtrl" ng-cloak >
+  <md-content class="md-padding" layout-xs="row" layout="row">
+    <div class='md-padding' layout="row" layout-wrap >
+      <md-card md-colors="{background: 'default-background-300-0.05'}" style="width: 375px;" ng-repeat="x in myData | orderBy:'-date'">
+        <md-card-title>
+          <md-card-title-text>
+            <span class="md-headline" md-colors="{color: 'default-primary-700'}">{{x.title}}</span>
+            <span class="md-subhead" md-colors="{color: 'default-accent-900'}">{{x.date + ' ' + x.author}}</span>
+          </md-card-title-text>
+          <md-card-title-media>
+            <div class="md-media-md card-media"><img ng-src="{{x.image ? x.image : 'http://wzhouus.github.io/ne2/res/ne2ios.png'}}" class="md-card-image" width="120px"></div>
+          </md-card-title-media>
+        </md-card-title>
+		<md-card-content class="md-primary md-hue-1" >
+		  <blockquote md-colors="{color: 'default-primary-900'}" class="md-body-1">{{x.quote}}</blockquote>
+		</md-card-content>
+        <md-card-actions layout="row" layout-align="end center">
+          <md-button class="md-primary md-raised md-icon-button" aria-label="icon" ng-href="{{x.url}}">
+		    <md-icon class="material-icons">more_horiz</md-icon>
+		  </md-button>
+        </md-card-actions>
+      </md-card>
+    </div>
+  </md-content>
+  </div> 
+</div>
+  <!-- Angular Material requires Angular.js Libraries -->
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+  <!-- Angular Material Library -->
+  <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
+<script>
+  angular.module('myApp', ['ngMaterial'])
+    .controller('AppCtrl', function($scope, $http) {
+      $http.get("ezarticles.json").then(function (response) {
+        $scope.myData = response.data;
+      });
+      $scope.orderByMe = function(x) {
+        $scope.myOrderBy = x;
+      };
+	})
+	.config(function($mdThemingProvider) {
+		$mdThemingProvider.theme('default') 
+                  .primaryPalette('green')
+                  .accentPalette('deep-purple')
+                  .warnPalette('red')
+				  .backgroundPalette('grey');
+    });
+</script>
+</body>
+</html>
