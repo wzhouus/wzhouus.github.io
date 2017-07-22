@@ -1,6 +1,6 @@
 ---
 layout: ne2sg
-title: "二零一七年六月小組聚會"
+title: "二零一七年七月小組聚會"
 category: ne2
 date: 2017-07-22
 time: 2:00-4:00p
