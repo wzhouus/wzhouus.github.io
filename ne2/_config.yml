@@ -1,3 +1,4 @@
 name: Wei
 markdown: kramdown
 paginate: 2
+paginate_path: "/blog/page:num/"
