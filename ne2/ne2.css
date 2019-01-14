@@ -388,11 +388,13 @@ body .blog {
   box-sizing: border-box;
 }
 
+table { width: 95%; }
+
 @media only screen and (max-width: 640px) {
 	table {
-		/* overflow-x: auto; */
+		/* overflow-x: auto;
 		border: none;
-		display: block;	
+		display: block;	 */
 	}	
 	/* Hide table headers (but not display: none;, for accessibility) */
 	thead tr { 
