@@ -5,10 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <title>John 3:16 Love</title>
-  <link rel="stylesheet" href="/j316/j316.css" />
+  <link rel="stylesheet" href="j316.css" />
 </head>
 <body>
-  <ul class="list">
+  <div class="list-wrapper">
+   <ul class="list">
     <li class="item"><div class="content">Item 1</div></li>
     <li class="item"><div class="content">Item 2</div></li>
     <li class="item"><div class="content">Item 3</div></li>
@@ -17,6 +18,27 @@
     <li class="item"><div class="content">Item 6</div></li>
     <li class="item"><div class="content">Item 7</div></li>
     <li class="item"><div class="content">Item 8</div></li>
-</ul>
+   </ul>
+   <a class="navbutton previous" type="button"><</a>
+   <a class="navbutton next" type="button">></a>
+  </div>
 </body>
+<script>
+  // https://community.appsmith.com/content/blog/ditch-bloat-building-swipeable-carousel-only-css
+  let list = document.querySelector(".list");
+
+  // We want to know the width of one of the items. We'll use this to decide how many pixels we want our carousel to scroll.
+  let item = document.querySelector(".item");
+  let itemWidth = item.offsetWidth;
+
+  // For the previous button, we add a negative amount to go "backwards"
+  document.querySelector(".navbutton.previous").addEventListener("click", function() {
+    list.scrollBy({ left: -itemWidth, behavior: "smooth" });
+  });
+
+  // For the next button, we add a positive amount to go "forwards"
+  document.querySelector(".navbutton.next").addEventListener("click", function() {
+    list.scrollBy({ left: itemWidth, behavior: "smooth" });
+  });
+</script>
 </html>
