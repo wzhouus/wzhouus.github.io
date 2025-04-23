@@ -36,7 +36,7 @@
 
 .item {
   flex-shrink: 0;
-  width: 105%;
+  width: 75%;
   height: 75vh;
   background-color: #ccc;
   scroll-snap-align: start;
